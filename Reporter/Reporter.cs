@@ -313,7 +313,7 @@ public class Reporter : MonoBehaviour
 #else
 		safeScreenArea = new Rect(0, 0, Screen.width, Screen.height);
 #endif
-		SafeScreenArea = new Rect(100, 50, Screen.width - 200, Screen.height - 100);
+		
         if (!Initialized)
 			Initialize();
 
